@@ -40,4 +40,45 @@ StudyMate is a student productivity application designed to help university and 
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
+
+com.example.studymate
+├── data
+│   ├── dao          — Database Access Objects
+│   ├── database     — Room Database setup
+│   └── model        — Entity data classes
+├── network          — Retrofit API service
+├── ui
+│   ├── assignments  — Assignment screen & adapter
+│   ├── flashcards   — Flashcard screen & adapter
+│   ├── home         — Home dashboard
+│   └── settings     — Settings screen
+├── viewmodel        — ViewModels for each feature
+└── MainActivity     — Navigation host
+
+
+---
+
+##  How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/Mizanur2346/StudyMate.git
+```
+2. Open the project in **Android Studio**
+3. Wait for Gradle to sync
+4. Run the app on an emulator or physical device
+
+---
+
+## Requirements
+
+- Android Studio Hedgehog or later
+- Android SDK API 26+
+- Internet connection (for daily quote feature)
+- Kotlin 1.9.22
+
+---
+
+
+

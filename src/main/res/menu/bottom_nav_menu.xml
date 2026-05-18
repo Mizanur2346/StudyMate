@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/assignmentsFragment"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Assignments" />
+
+    <item
+        android:id="@+id/flashcardsFragment"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Flashcards" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Settings" />
+
+</menu>
